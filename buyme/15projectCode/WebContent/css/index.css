@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+  font-family: 'Underdog', cursive;
+  background-image:url("../images/buyme.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  height:100vh;
+}
+
+.topnav{
+	background-color:#333;
+	overflow:hidden;
+	 float: none;
+    position: relative;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left:14%;
+ padding-top:2%;
+ padding-bottom:2%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.heading1{
+	margin-top:20px;
+}
+.heading1 h1{
+	font-family: 'Press Start 2P', cursive;
+	text-align:center;
+}
+

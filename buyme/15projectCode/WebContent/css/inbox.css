@@ -1,0 +1,16 @@
+.inbox table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inbox th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.inbox tr:nth-child(even){background-color: #f2f2f2}
+
+.inbox th {
+  background-color: #4CAF50;
+  color: white;
+}

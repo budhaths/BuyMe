@@ -1,0 +1,77 @@
+* {
+	font-family: 'Underdog', cursive;
+  box-sizing: border-box;
+}
+.adminportal{
+	margin:50px;
+}
+
+.adminportal h2{
+	font-family: 'Underdog', cursive;
+	font-size:19px;
+	margin:10px;
+}
+.adminportal a{
+	text-decoration: none;
+	
+}
+.adminportal a:link {
+  color: red;
+}
+
+/* visited link */
+.adminportal a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.adminportal a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.adminportal a:active {
+  color: blue;
+}
+
+.form-bar{
+	margin:30px;
+	border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	
+}
+
+.form-bar h1{
+	font-family: 'Underdog', cursive;
+	font-size:19px;
+	margin:10px;
+}
+
+.form-bar input[type=text],  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.form-bar label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color:white;
+  padding:5px;
+  margin-top:5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
